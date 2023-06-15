@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The Generics | Store</title>
+    <meta name="description" content="This is the description">
+    <link rel="stylesheet" href="styles.css" />
+    <link href="/dist/output.css" rel="stylesheet">
+    <script src="store.js" async></script>
+</head>
+
+<body>
+    <header class="bg-black bg-opacity-60 bg-blend-multiply bg-cover pb-[30px]"
+        style="background-image: url('./Images/HeaderBackground.jpg');">
+        <nav class="border-b border-white border-opacity-30 px-3 ss:px-[50px] lg:px-96 mx-auto">
+            <ul class="flex justify-between items-center">
+                <li class="hover:bg-white hover:bg-opacity-30 p-3"><a class='text-white' href="./index.html">HOME</a>
+                </li>
+                <li class="hover:bg-white hover:bg-opacity-30 p-3"><a class='text-white' href="./store.html">STORE</a>
+                </li>
+                <li class="hover:bg-white hover:bg-opacity-30 p-3"><a class='text-white' href="./about.html">ABOUT</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="flex flex-col px-6 lg:px-96 mx-auto">
+            <h1 class="text-[4em] ss:text-[116px] m-0 text-white text-center" style="font-family:Booter-Zero Zero">The
+                Generics</h1>
+            <div class="max-w-sm mt-2 mx-auto lg:ml-16">
+                <button type="button"
+                    class="my-2 mx-auto md:mx-15 text-white border-2 border-[#2d9cdb] bg-white bg-opacity-10 rounded-none text-xl font-light px-6 lg:px-14 hover:bg-opacity-30 py-5">Get
+                    our Latest Album</button>
+            </div>
+            <button type="button"
+                class="block mx-auto text-[#2d9cdb] text-[4em] mt-8 border-2 border-[#2d9cdb] bg-white bg-opacity-10 rounded-full w-24 h-24 p-0 text-center hover:bg-opacity-30">&#9658;</button>
+        </div>
+    </header>
+    <section class="flex flex-col px-3 ss:px-[50px] md:px-[300px] mx-auto">
+        <h1 class="text-slate-800 py-3 text-center text-[20px] ss:text-[40px]" style="font-family:Booter-Zero Zero">
+            MUSIC</h1>
+        <div class="grid gap-2 sm:gap-4 grid-cols-1 sm:grid-cols-2">
+            <div
+                class="shop-item flex flex-col space-y-2 justify-center hover:shadow-md rounded-md border border-slate-100 pb-3">
+                <span
+                    class="shop-item-title text-center text-md xs:text-[24px] text-[rgb(51,51,51)] font-semibold">Album
+                    1</span>
+                <img class="shop-item-image object-cover w-full h-[250px]" src="Images/Album 1.png">
+                <div class="shop-item-details flex justify-between items-center px-3">
+                    <span class="shop-item-price text-[#333] text-xl sm:text-2xl">$12.99</span>
+                    <button class="shop-item-button px-2 py-2 text-white rounded-md bg-[#56ccf2] hover:bg-[#2d9cdb]"
+                        type="button">ADD
+                        TO CART</button>
+                </div>
+            </div>
+            <div
+                class="shop-item flex flex-col space-y-2 justify-center hover:shadow-md rounded-md border border-slate-100 pb-3">
+                <span
+                    class="shop-item-title text-center text-md xs:text-md xs:text-[24px] text-[rgb(51,51,51)] font-semibold">Album
+                    2</span>
+                <img class="shop-item-image object-cover w-full h-[250px]" src="Images/Album 2.png">
+                <div class="shop-item-details flex justify-between items-center px-3">
+                    <span class="shop-item-price text-[#333] text-xl sm:text-2xl">$14.99</span>
+                    <button class="shop-item-button px-2 py-2 text-white rounded-md bg-[#56ccf2] hover:bg-[#2d9cdb]"
+                        type="button">ADD
+                        TO CART</button>
+                </div>
+            </div>
+            <div
+                class="shop-item flex flex-col space-y-2 justify-center hover:shadow-md rounded-md border border-slate-100 pb-3">
+                <span
+                    class="shop-item-title text-center text-md xs:text-[24px] text-[rgb(51,51,51)] font-semibold">Album
+                    3</span>
+                <img class="shop-item-image object-cover w-full h-[250px]" src="Images/Album 3.png">
+                <div class="shop-item-details flex justify-between items-center px-3">
+                    <span class="shop-item-price text-[#333] text-xl sm:text-2xl">$9.99</span>
+                    <button class="shop-item-button px-2 py-2 text-white rounded-md bg-[#56ccf2] hover:bg-[#2d9cdb]"
+                        type="button">ADD
+                        TO CART</button>
+                </div>
+            </div>
+            <div
+                class="shop-item flex flex-col space-y-2 justify-center hover:shadow-md rounded-md border border-slate-100 pb-3">
+                <span
+                    class="shop-item-title text-center text-md xs:text-[24px] text-[rgb(51,51,51)] font-semibold">Album
+                    4</span>
+                <img class="shop-item-image object-cover w-full h-[250px]" src="Images/Album 4.png">
+                <div class="shop-item-details flex justify-between items-center px-3">
+                    <span class="shop-item-price text-[#333] text-xl sm:text-2xl">$19.99</span>
+                    <button class="shop-item-button px-2 py-2 text-white rounded-md bg-[#56ccf2] hover:bg-[#2d9cdb]"
+                        type="button">ADD
+                        TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="flex flex-col px-3 ss:px-[50px] md:px-[300px] mx-auto my-6">
+        <h2 class="text-slate-800 py-3 text-center text-[20px] ss:text-[40px]" style="font-family:Booter-Zero Zero">
+            MERCH</h2>
+        <div class="grid gap-2 sm:gap-4 grid-cols-1 sm:grid-cols-2">
+            <div
+                class="shop-item flex flex-col space-y-2 justify-center hover:shadow-md rounded-md border border-slate-100 pb-3">
+                <span
+                    class="shop-item-title text-center text-md xs:text-[24px] text-[rgb(51,51,51)] font-semibold">T-Shirt</span>
+                <img class="shop-item-image object-cover w-full h-[250px]" src="Images/Shirt.png">
+                <div class="shop-item-details flex justify-between items-center px-3">
+                    <span class="shop-item-price text-[#333] text-xl sm:text-2xl">$19.99</span>
+                    <button class="shop-item-button px-2 py-2 text-white rounded-md bg-[#56ccf2] hover:bg-[#2d9cdb]"
+                        type="button">ADD
+                        TO CART</button>
+                </div>
+            </div>
+            <div
+                class="shop-item flex flex-col space-y-2 justify-center hover:shadow-md rounded-md border border-slate-100 pb-3">
+                <span
+                    class="shop-item-title text-center text-md xs:text-[24px] text-[rgb(51,51,51)] font-semibold">Coffee
+                    Cup</span>
+                <img class="shop-item-image object-cover w-full h-[250px]" src="Images/Cofee.png">
+                <div class="shop-item-details flex justify-between items-center px-3">
+                    <span class="shop-item-price text-[#333] text-xl sm:text-2xl">$19.99</span>
+                    <button class="shop-item-button px-2 py-2 text-white rounded-md bg-[#56ccf2] hover:bg-[#2d9cdb]"
+                        type="button">ADD
+                        TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="flex flex-col px-3 ss:px-[50px] md:px-[300px] mx-auto my-6">
+        <h2 class="text-slate-800 py-3 text-center text-[20px] ss:text-[40px]" style="font-family:Booter-Zero Zero">CART
+        </h2>
+        <div class="flex space-x-3">
+            <span class="border-b border-slate-800 w-full text-[1em] sm:text-[1.25em] text-[#333]">ITEM</span>
+            <span class="flex border-b border-slate-800 w-full text-[1em] sm:text-[1.25em] text-[#333]">PRICE</span>
+            <span class="flex border-b border-slate-800 w-full text-[1em] sm:text-[1.25em] text-[#333]">QUANTITY</span>
+        </div>
+        <div class="cart-items flex flex-col space-y-2">
+        </div>
+        <div class="flex justify-end items-center mt-3">
+            <strong class="text-black text-xl sm:text-2xl mr-4">Total:</strong>
+            <span class="cart-total-price text-[#333] text-xl sm:text-2xl">$0</span>
+        </div>
+        <div class="flex justify-center items-center mt-5 sm:mt-10">
+            <button
+                class="btn-purchase text-center px-3 py-5 text-white font-semibold rounded-md bg-[#56ccf2] hover:bg-[#2d9cdb] text-3xl  w-full xxs:w-[210px]"
+                type="button">PURCHASE</button>
+        </div>
+    </section>
+    <footer class="w-full bg-[#56ccf2] py-6 sm:py-2 flex justify-between  px-3 ss:px-[50px] lg:px-[300px] mx-auto">
+        <h1 class="text-[3em] ss:text-[4em] text-white" style="font-family:Booter-Zero Zero">The Generics</h1>
+        <div class="flex flex-col ss:flex-row ss:space-y-0 ss:space-x-3 justify-between items-center space-y-2">
+            <span>
+                <a href="https://www.youtube.com" target="_blank">
+                    <img src="Images/YouTube Logo.png" class="w-6 h-6 sm:w-8 sm:h-8">
+                </a>
+            </span>
+            <span>
+                <a href="https://www.spotify.com" target="_blank">
+                    <img src="Images/Spotify Logo.png" class="w-6 h-6 sm:w-8 sm:h-8">
+                </a>
+            </span>
+            <span>
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="Images/Facebook Logo.png" class="w-6 h-6 sm:w-8 sm:h-8">
+                </a>
+            </span>
+        </div>
+    </footer>
+</body>
+
+</html>
